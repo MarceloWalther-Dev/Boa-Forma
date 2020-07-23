@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=0.9">
+    <title>Centro Boa Forma -  Seu espaço de saúde</title>
+    <link rel="icon" href="./img/fav.png">
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <!--Style custom -->
+    <link rel="stylesheet" href="./css/custom.css">
+</head>
+<body>
+    <header class="">
+        <!-- MENU MOBILE -->
+        <ul id="menu-mobile" class="sidenav" >
+            <li><a href="">Home</a></li>
+            <li><a href="">Sobre o Boa Forma</a></li>
+            <li><a href="">Serviços</a></li>
+            <li><a href="">Unidades</a></li>
+            <li><a href="">Contato</a></li>
+        </ul>
+        <div class="navbar-fixed">
+            <nav class="navbar z-depth-0">
+                <div class="nav-wrapper container">
+                    <h1 class="logo_text">Centro Boa Forma - Seu espaço de Saúde</h1>
+                    <a href=""><img class="logo_img" src="./img/logo.png" alt="Centro Boa Forma"></a>
+
+                    <ul class=" right light hide-on-med-and-down">
+                        <li><a href="">Home</a></li>
+                        <li><a href="">Sobre o Boa Forma</a></li>
+                        <li><a href="">Serviços</a></li>
+                        <li><a href="">Unidades</a></li>
+                        <li><a href="">Contato</a></li>
+                    </ul>                   
+
+                    <a href="#" data-target="menu-mobile" class="sidenav-trigger right"><i class="material-icons">menu</i></a>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <section class="home bloco">
+        <div class="row container banner">
+            <div class="col s12 center">
+            <h2 class="white-text" >O melhor treinamento para região</h2>
+            <p class="white-text light">Um novo conceito em prevensão, promoção e reabilitação da saúde para
+                quem busca melhora do condicionamento e emagrecimento, além de ser divertido e desafiador. Quer experimentar?
+            </p>
+            <div class="row">
+                <a class="btn btn-large blue-logo"href="">Sobre nós</a>
+                <a class="btn btn-large white black-text"href="">Contato</a>
+            </div>
+        </div>
+    </div>
+    </section>
+
+
+
+
+<!--jquery-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<!-- Compiled and minified JavaScript -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+<!-- JAVASCRIPT -->
+<script>
+    $(document).ready(function(){
+        //MENU MOBILE
+        $(".sidenav").sideNav();
+    })
+</script>
+</body>
+</html>
